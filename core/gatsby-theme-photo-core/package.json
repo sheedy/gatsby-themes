@@ -25,12 +25,12 @@
     "directory": "core/gatsby-theme-photo-core"
   },
   "peerDependencies": {
-    "gatsby": "2.19.43",
+    "gatsby": "2.19.49",
     "react": "16.13.0",
     "react-dom": "16.13.0"
   },
   "devDependencies": {
-    "gatsby": "2.19.43",
+    "gatsby": "2.19.49",
     "react": "16.13.0",
     "react-dom": "16.13.0"
   },
