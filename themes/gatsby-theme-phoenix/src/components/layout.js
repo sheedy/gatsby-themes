@@ -7,12 +7,14 @@ import Seo from "./seo"
 
 import Icon from "./icon"
 import Button from "./button"
+import { CodeBlock } from "@arshad/gatsby-theme-blog-core"
 
 // Components available in MDX files.
 const mdxComponents = {
   Link,
   Button,
   Icon,
+  code: CodeBlock,
 }
 
 export default ({ pageTitle, pageExcerpt, children }) => {
