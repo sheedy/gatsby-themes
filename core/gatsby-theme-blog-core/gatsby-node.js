@@ -71,6 +71,13 @@ exports.onCreateNode = async (
   const { basePath } = withDefaults(themeOptions)
   const nodeType = `Post`
 
+  let slug = `${basePath}/${node.frontmatter.slug || slugify(parent.relativeDirectory)}`
+  
+  // Allow theme consumer to customize the slug.
+  if (themeOptions.slugResolver) {
+    slug = themeOptions.slugResolver(node, parent)
+  }
+
   // Create Post nodes from Mdx nodes.
   if (nodeType) {
     actions.createNode({
@@ -78,8 +85,7 @@ exports.onCreateNode = async (
       title: node.frontmatter.title,
       date: node.frontmatter.date,
       excerpt: node.frontmatter.excerpt,
-      slug: `${basePath}/${node.frontmatter.slug ||
-        slugify(parent.relativeDirectory)}`,
+      slug,
       image: node.frontmatter.image,
       caption: node.frontmatter.caption,
       tags: node.frontmatter.tags,
