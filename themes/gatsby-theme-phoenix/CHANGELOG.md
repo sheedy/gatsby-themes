@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.6](https://github.com/arshad/gatsby-themes/compare/@arshad/gatsby-theme-phoenix@1.1.5...@arshad/gatsby-theme-phoenix@1.1.6) (2020-05-05)
+
+
+### Bug Fixes
+
+* **phoenix:** add syntax highlighting back ([f72f3f3](https://github.com/arshad/gatsby-themes/commit/f72f3f349c244c66881d460a626b7b47ff459057))
+* unpin dependencies versions ([449f7bb](https://github.com/arshad/gatsby-themes/commit/449f7bb84cc2fd566f065b3d96c28a7ab64a1de8))
+* update packages ([3324972](https://github.com/arshad/gatsby-themes/commit/3324972976ec6a766b24078e1ec3b4a6414ae211))
+* **deps:** update dependency react-helmet to v6 ([23d9a3f](https://github.com/arshad/gatsby-themes/commit/23d9a3fa8db98198e6a53b4fccc209cf40147b8b))
+* **deps:** update dependency tailwindcss to v1.3.1 ([6e6fc26](https://github.com/arshad/gatsby-themes/commit/6e6fc2667a873c0299accf4d7d1c3bba683359fe))
+* **deps:** update dependency tailwindcss to v1.3.5 ([0065987](https://github.com/arshad/gatsby-themes/commit/00659877372e5ad8ed68082e0e669ef95399f062))
+
+
+
+
+
 ## [1.1.5](https://github.com/arshad/gatsby-themes/compare/@arshad/gatsby-theme-phoenix@1.1.4...@arshad/gatsby-theme-phoenix@1.1.5) (2020-03-21)
 
 **Note:** Version bump only for package @arshad/gatsby-theme-phoenix

@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.2.0](https://github.com/arshad/gatsby-themes/compare/@arshad/gatsby-theme-blog-core@1.1.4...@arshad/gatsby-theme-blog-core@1.2.0) (2020-05-05)
+
+
+### Bug Fixes
+
+* format code ([f372459](https://github.com/arshad/gatsby-themes/commit/f3724590eded596fd42c0e2f9ef3785140a97d92))
+* **phoenix:** add syntax highlighting back ([f72f3f3](https://github.com/arshad/gatsby-themes/commit/f72f3f349c244c66881d460a626b7b47ff459057))
+* unpin dependencies versions ([449f7bb](https://github.com/arshad/gatsby-themes/commit/449f7bb84cc2fd566f065b3d96c28a7ab64a1de8))
+* update packages ([3324972](https://github.com/arshad/gatsby-themes/commit/3324972976ec6a766b24078e1ec3b4a6414ae211))
+
+
+### Features
+
+* **phoenix:** allow theme consumer to customize the slug ([b3fad50](https://github.com/arshad/gatsby-themes/commit/b3fad507428f9dcb7f5add1c4069ea7759b9ade2))
+
+
+
+
+
 ## [1.1.4](https://github.com/arshad/gatsby-themes/compare/@arshad/gatsby-theme-blog-core@1.1.3...@arshad/gatsby-theme-blog-core@1.1.4) (2020-03-21)
 
 **Note:** Version bump only for package @arshad/gatsby-theme-blog-core
