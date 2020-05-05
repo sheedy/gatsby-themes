@@ -71,8 +71,10 @@ exports.onCreateNode = async (
   const { basePath } = withDefaults(themeOptions)
   const nodeType = `Post`
 
-  let slug = `${basePath}/${node.frontmatter.slug || slugify(parent.relativeDirectory)}`
-  
+  let slug = `${basePath}/${
+    node.frontmatter.slug || slugify(parent.relativeDirectory)
+  }`
+
   // Allow theme consumer to customize the slug.
   if (themeOptions.slugResolver) {
     slug = themeOptions.slugResolver(node, parent)

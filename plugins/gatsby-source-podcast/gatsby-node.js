@@ -52,10 +52,7 @@ const renameSymbolKeys = obj => {
 }
 
 const createContentDigest = obj =>
-  _crypto.default
-    .createHash(`md5`)
-    .update(JSON.stringify(obj))
-    .digest(`hex`)
+  _crypto.default.createHash(`md5`).update(JSON.stringify(obj)).digest(`hex`)
 
 exports.sourceNodes = async (
   { actions, createNodeId },

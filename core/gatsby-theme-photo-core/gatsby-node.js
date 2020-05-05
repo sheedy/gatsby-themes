@@ -77,8 +77,9 @@ exports.onCreateNode = async (
       title: node.frontmatter.title,
       date: node.frontmatter.date,
       excerpt: node.frontmatter.excerpt,
-      slug: `${basePath}/${node.frontmatter.slug ||
-        slugify(parent.relativeDirectory)}`,
+      slug: `${basePath}/${
+        node.frontmatter.slug || slugify(parent.relativeDirectory)
+      }`,
       image: node.frontmatter.image,
       parent: node.id,
       internal: {
