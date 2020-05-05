@@ -126,6 +126,19 @@ src
 
 To learn more about component shadowing, check out the [official theme docs](https://www.gatsbyjs.org/docs/themes/shadowing).
 
+### Slug
+
+You can provide your own slug resolver as follows:
+
+```
+{
+  resolve: `@arshad/gatsby-theme-blog-core`,
+  options: {
+    slugResolver: (node, parentNode) => custom_slug(node.title)
+  }
+},
+```
+
 ## Support
 
 Create an issue on the main repo [@arshad/gatsby-themes](https://github.com/arshad/gatsby-themes/issues).
