@@ -25,14 +25,14 @@
     "directory": "core/gatsby-theme-photo-core"
   },
   "peerDependencies": {
-    "gatsby": "2.21.1",
-    "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "gatsby": "^2.20.36",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   },
   "devDependencies": {
-    "gatsby": "2.21.1",
-    "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "gatsby": "^2.20.36",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   },
   "dependencies": {
     "@arshad/gatsby-theme-core": "^1.1.4",
