@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.7](https://github.com/arshad/gatsby-themes/compare/@arshad/gatsby-theme-phoenix@1.1.6...@arshad/gatsby-theme-phoenix@1.1.7) (2020-06-15)
+
+
+### Bug Fixes
+
+* **deps:** update dependency react-helmet to v6.1.0 ([c6e06b2](https://github.com/arshad/gatsby-themes/commit/c6e06b21ee0457a741d880f66cdff4b8f5a60c45))
+* **deps:** update dependency tailwindcss to v1.4.5 ([9d17d1e](https://github.com/arshad/gatsby-themes/commit/9d17d1e3ec637f6d7c5392aa1038c7419f6a2af1))
+* **deps:** update gatsby monorepo ([0b7dbf4](https://github.com/arshad/gatsby-themes/commit/0b7dbf4034fa8efda3f1c0ec0a9184b9aa852275))
+* **deps:** update gatsby monorepo ([500fbcc](https://github.com/arshad/gatsby-themes/commit/500fbcc78306c637d1dac48686ea4c14269897f2))
+
+
+
+
+
 ## [1.1.6](https://github.com/arshad/gatsby-themes/compare/@arshad/gatsby-theme-phoenix@1.1.5...@arshad/gatsby-theme-phoenix@1.1.6) (2020-05-05)
 
 

@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/arshad/gatsby-themes/compare/gatsby-theme-flex@0.2.5...gatsby-theme-flex@0.3.0) (2020-06-15)
+
+
+### Features
+
+* export all components ([22e6c59](https://github.com/arshad/gatsby-themes/commit/22e6c594d53ca4e54acde0db5f763944f74a2b9f))
+
+
+
+
+
 ## [0.2.5](https://github.com/arshad/gatsby-themes/compare/gatsby-theme-flex@0.2.4...gatsby-theme-flex@0.2.5) (2020-05-05)
 
 
