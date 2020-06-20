@@ -1,3 +1,5 @@
+## We are working on the next version of the Flex theme. See https://github.com/reflexjs/reflex
+
 <div align="center">
 <img src="./www/assets/images/logos.svg" width="300px" />
 <h1>@arshad/gatsby-themes</h1>
