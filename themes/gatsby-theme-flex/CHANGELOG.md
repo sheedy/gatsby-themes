@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.4.1](https://github.com/arshad/gatsby-themes/compare/gatsby-theme-flex@0.4.0...gatsby-theme-flex@0.4.1) (2020-06-26)
+
+
+### Bug Fixes
+
+* **flex:** ensure image is not null ([dfe3054](https://github.com/arshad/gatsby-themes/commit/dfe3054f3afae9b09e7ab58b354d7dd3185b8ac5))
+
+
+
+
+
 # [0.4.0](https://github.com/arshad/gatsby-themes/compare/gatsby-theme-flex@0.3.0...gatsby-theme-flex@0.4.0) (2020-06-26)
 
 
