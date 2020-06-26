@@ -7,7 +7,7 @@ import Seo from "../misc/seo"
 import Header from "./header"
 import Footer from "./footer"
 
-const Layout = ({ title, description, url, children }) => {
+const Layout = ({ title, description, url, image, children }) => {
   const data = useStaticQuery(graphql`
     {
       allSite {
@@ -34,7 +34,7 @@ const Layout = ({ title, description, url, children }) => {
 
   return (
     <React.Fragment>
-      <Seo title={title} description={description} url={url} />
+      <Seo title={title} description={description} url={url} image={image} />
 
       <Header
         siteName={site.title}

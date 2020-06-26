@@ -27,7 +27,8 @@ export default ({
 
   const { theme } = useThemeUI()
   const { site } = data.site
-  const absoluteUrl = path => (path ? `${site.siteUrl}/${path}` : site.siteUrl)
+  const absoluteUrl = path =>
+    path ? `${site.siteUrl}/${path.replace(/^\/+/, "")}` : site.siteUrl
 
   return (
     <Helmet
@@ -49,6 +50,8 @@ export default ({
       <meta property="og:type" content={type} />
       <meta property="og:url" content={absoluteUrl(url)} />
       {image && <meta property="og:image" content={absoluteUrl(image)} />}
+      {image && <meta name="twitter:card" content="summary_large_image" />}
+      {image && <meta name="twitter:image" content={absoluteUrl(image)} />}
       <meta
         property="og:description"
         content={striptags(description || site.description)}
