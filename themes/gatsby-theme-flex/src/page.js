@@ -11,7 +11,7 @@ export default ({ title, description, slug, body, image }) => {
       title={title}
       description={description}
       url={slug}
-      image={image.thumbnail.fluid.src}
+      image={image?.thumbnail?.fluid.src}
     >
       <MDXProvider components={{ ...blocks }}>
         <MDXRenderer>{body}</MDXRenderer>
