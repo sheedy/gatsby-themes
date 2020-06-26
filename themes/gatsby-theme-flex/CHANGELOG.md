@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.4.0](https://github.com/arshad/gatsby-themes/compare/gatsby-theme-flex@0.3.0...gatsby-theme-flex@0.4.0) (2020-06-26)
+
+
+### Features
+
+* **flex:** add support for twitter summary cards ([5d48cd8](https://github.com/arshad/gatsby-themes/commit/5d48cd8d8d18530c2bf0f7d46481498e2d085e9b))
+
+
+
+
+
 # [0.3.0](https://github.com/arshad/gatsby-themes/compare/gatsby-theme-flex@0.2.5...gatsby-theme-flex@0.3.0) (2020-06-15)
 
 

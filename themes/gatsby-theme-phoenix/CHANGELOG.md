@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.8](https://github.com/arshad/gatsby-themes/compare/@arshad/gatsby-theme-phoenix@1.1.7...@arshad/gatsby-theme-phoenix@1.1.8) (2020-06-26)
+
+
+### Bug Fixes
+
+* **deps:** update gatsby monorepo ([4ce7ad4](https://github.com/arshad/gatsby-themes/commit/4ce7ad48da59fabd5568cee4623b916d087e10ba))
+
+
+
+
+
 ## [1.1.7](https://github.com/arshad/gatsby-themes/compare/@arshad/gatsby-theme-phoenix@1.1.6...@arshad/gatsby-theme-phoenix@1.1.7) (2020-06-15)
 
 
